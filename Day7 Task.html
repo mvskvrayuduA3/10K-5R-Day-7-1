@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day7 Task</title>
+    <style>
+      form,body,a,h1 {
+        background-color: #1877F2;
+        margin-left: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sign Up</h1>
+    <form action="https://en.wikipedia.org/wiki/Facebook">
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required /><br /><br>
+
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required /><br /><br>
+
+      <label for="'email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br>
+
+      <label for="pass">New Password : </label>
+      <input type="password" name="pass" id="pass" required /><br /><br>
+
+      <label for="pass1">Confirm Password : </label>
+      <input type="password" name="pass1" id="pass1" required /><br /><br>
+
+      <label for="mobile">Mobile Number:</label><br /><br>
+      <input
+        type="tel"
+        id="mobile"
+        name="mobile"
+        pattern="[0-9]{10}"
+        required
+      /><br />
+
+      <label for="mobile">Alternate Mobile Number:</label><br />
+      <input
+        type="tel"
+        id="mobile1"
+        name="mobile1"
+        pattern="[0-9]{10}"
+        required
+      /><br />
+
+      <p>Gender</p>
+      <input type="radio" name="answer" id="r1" required /><label>Male</label>
+      <input type="radio" name="answer" id="r2" required /><label>Female</label>
+      <input type="radio" name="answer" id="r3" required /><label>Other</label
+      ><br />
+
+      <p>Date of Birth:</p>
+      <select required>
+        <option>2004</option>
+        <option>2003</option>
+        <option>2002</option>
+        <option>2001</option></select
+      ><br />
+
+    
+      <input type="submit" value="Sign Up" name="Sign Up" >
+    </form>
+    <a href="./Day 7 Task1.html">User already have an account</a>
+    </form>
+  </body>
+</html>
